@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
 
-
 *{
     font-family: 'poppins',sans-serif;
     margin: 0;
@@ -174,9 +173,10 @@ header.shadow .logo {
 
 .about img {
     height: 450px;
-    width: 450px;
-
+    width: 900px;
 }
+
+
 
 .about .imgBx {
     position: relative;
@@ -184,6 +184,8 @@ header.shadow .logo {
     width: 50%;
     min-height: 500px;
 }
+
+
 
 .btn2 {
     position: relative;
@@ -281,26 +283,6 @@ header.shadow .logo {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-
-/* .profile {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.profile-img {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    border: 2px solid var(--second-color);
-}
-
-.profile-name {
-    font-size: .8rem;
-    font-weight: 500;
-} */
 
 /* footer */
 footer {
@@ -471,6 +453,7 @@ footer p {
 
     .home{
         min-height: 380px;
+        width: 100%;
     }
 
     .home-title{
@@ -495,17 +478,22 @@ footer p {
         text-align: center;
         padding-right: 0px;
     }
+ 
 
     .about .contentBx,
     .about .imgBx{
         min-width: 100%;
         width: 100%;
-        padding-right: 0px;
+        padding:  20px 0;
         text-align: center;
     }
 
     .about .imgBx{
         min-height: 250px;
+    }
+    .about img {
+        height: 450px;
+        width: 350px;   
     }
 
     .btn2{
